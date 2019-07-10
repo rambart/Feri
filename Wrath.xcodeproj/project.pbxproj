@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CD2BFA422D5623000E42EFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD2BFA322D5623000E42EFA /* AppDelegate.swift */; };
+		7CD2BFA622D5623000E42EFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD2BFA522D5623000E42EFA /* ViewController.swift */; };
+		7CD2BFA922D5623000E42EFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CD2BFA722D5623000E42EFA /* Main.storyboard */; };
+		7CD2BFAC22D5623000E42EFA /* Wrath.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7CD2BFAA22D5623000E42EFA /* Wrath.xcdatamodeld */; };
+		7CD2BFAE22D5623300E42EFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CD2BFAD22D5623300E42EFA /* Assets.xcassets */; };
+		7CD2BFB122D5623300E42EFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CD2BFAF22D5623300E42EFA /* LaunchScreen.storyboard */; };
+		7CD2BFBC22D5623400E42EFA /* WrathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD2BFBB22D5623400E42EFA /* WrathTests.swift */; };
+		7CD2BFC722D5623400E42EFA /* WrathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD2BFC622D5623400E42EFA /* WrathUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CD2BFB822D5623400E42EFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CD2BF9822D5623000E42EFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CD2BF9F22D5623000E42EFA;
+			remoteInfo = Wrath;
+		};
+		7CD2BFC322D5623400E42EFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CD2BF9822D5623000E42EFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CD2BF9F22D5623000E42EFA;
+			remoteInfo = Wrath;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7CD2BFA022D5623000E42EFA /* Wrath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wrath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CD2BFA322D5623000E42EFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CD2BFA522D5623000E42EFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7CD2BFA822D5623000E42EFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CD2BFAB22D5623000E42EFA /* Wrath.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wrath.xcdatamodel; sourceTree = "<group>"; };
+		7CD2BFAD22D5623300E42EFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CD2BFB022D5623300E42EFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CD2BFB222D5623300E42EFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CD2BFB722D5623400E42EFA /* WrathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WrathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CD2BFBB22D5623400E42EFA /* WrathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrathTests.swift; sourceTree = "<group>"; };
+		7CD2BFBD22D5623400E42EFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CD2BFC222D5623400E42EFA /* WrathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WrathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CD2BFC622D5623400E42EFA /* WrathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrathUITests.swift; sourceTree = "<group>"; };
+		7CD2BFC822D5623400E42EFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CD2BF9D22D5623000E42EFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CD2BFB422D5623400E42EFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CD2BFBF22D5623400E42EFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CD2BF9722D5623000E42EFA = {
+			isa = PBXGroup;
+			children = (
+				7CD2BFA222D5623000E42EFA /* Wrath */,
+				7CD2BFBA22D5623400E42EFA /* WrathTests */,
+				7CD2BFC522D5623400E42EFA /* WrathUITests */,
+				7CD2BFA122D5623000E42EFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CD2BFA122D5623000E42EFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CD2BFA022D5623000E42EFA /* Wrath.app */,
+				7CD2BFB722D5623400E42EFA /* WrathTests.xctest */,
+				7CD2BFC222D5623400E42EFA /* WrathUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CD2BFA222D5623000E42EFA /* Wrath */ = {
+			isa = PBXGroup;
+			children = (
+				7CD2BFA322D5623000E42EFA /* AppDelegate.swift */,
+				7CD2BFA522D5623000E42EFA /* ViewController.swift */,
+				7CD2BFA722D5623000E42EFA /* Main.storyboard */,
+				7CD2BFAD22D5623300E42EFA /* Assets.xcassets */,
+				7CD2BFAF22D5623300E42EFA /* LaunchScreen.storyboard */,
+				7CD2BFB222D5623300E42EFA /* Info.plist */,
+				7CD2BFAA22D5623000E42EFA /* Wrath.xcdatamodeld */,
+			);
+			path = Wrath;
+			sourceTree = "<group>";
+		};
+		7CD2BFBA22D5623400E42EFA /* WrathTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CD2BFBB22D5623400E42EFA /* WrathTests.swift */,
+				7CD2BFBD22D5623400E42EFA /* Info.plist */,
+			);
+			path = WrathTests;
+			sourceTree = "<group>";
+		};
+		7CD2BFC522D5623400E42EFA /* WrathUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CD2BFC622D5623400E42EFA /* WrathUITests.swift */,
+				7CD2BFC822D5623400E42EFA /* Info.plist */,
+			);
+			path = WrathUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CD2BF9F22D5623000E42EFA /* Wrath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CD2BFCB22D5623400E42EFA /* Build configuration list for PBXNativeTarget "Wrath" */;
+			buildPhases = (
+				7CD2BF9C22D5623000E42EFA /* Sources */,
+				7CD2BF9D22D5623000E42EFA /* Frameworks */,
+				7CD2BF9E22D5623000E42EFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wrath;
+			productName = Wrath;
+			productReference = 7CD2BFA022D5623000E42EFA /* Wrath.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CD2BFB622D5623400E42EFA /* WrathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CD2BFCE22D5623400E42EFA /* Build configuration list for PBXNativeTarget "WrathTests" */;
+			buildPhases = (
+				7CD2BFB322D5623400E42EFA /* Sources */,
+				7CD2BFB422D5623400E42EFA /* Frameworks */,
+				7CD2BFB522D5623400E42EFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CD2BFB922D5623400E42EFA /* PBXTargetDependency */,
+			);
+			name = WrathTests;
+			productName = WrathTests;
+			productReference = 7CD2BFB722D5623400E42EFA /* WrathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CD2BFC122D5623400E42EFA /* WrathUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CD2BFD122D5623400E42EFA /* Build configuration list for PBXNativeTarget "WrathUITests" */;
+			buildPhases = (
+				7CD2BFBE22D5623400E42EFA /* Sources */,
+				7CD2BFBF22D5623400E42EFA /* Frameworks */,
+				7CD2BFC022D5623400E42EFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CD2BFC422D5623400E42EFA /* PBXTargetDependency */,
+			);
+			name = WrathUITests;
+			productName = WrathUITests;
+			productReference = 7CD2BFC222D5623400E42EFA /* WrathUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CD2BF9822D5623000E42EFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Thomas Loring";
+				TargetAttributes = {
+					7CD2BF9F22D5623000E42EFA = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					7CD2BFB622D5623400E42EFA = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 7CD2BF9F22D5623000E42EFA;
+					};
+					7CD2BFC122D5623400E42EFA = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 7CD2BF9F22D5623000E42EFA;
+					};
+				};
+			};
+			buildConfigurationList = 7CD2BF9B22D5623000E42EFA /* Build configuration list for PBXProject "Wrath" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CD2BF9722D5623000E42EFA;
+			productRefGroup = 7CD2BFA122D5623000E42EFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CD2BF9F22D5623000E42EFA /* Wrath */,
+				7CD2BFB622D5623400E42EFA /* WrathTests */,
+				7CD2BFC122D5623400E42EFA /* WrathUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CD2BF9E22D5623000E42EFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CD2BFB122D5623300E42EFA /* LaunchScreen.storyboard in Resources */,
+				7CD2BFAE22D5623300E42EFA /* Assets.xcassets in Resources */,
+				7CD2BFA922D5623000E42EFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CD2BFB522D5623400E42EFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CD2BFC022D5623400E42EFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CD2BF9C22D5623000E42EFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CD2BFA622D5623000E42EFA /* ViewController.swift in Sources */,
+				7CD2BFA422D5623000E42EFA /* AppDelegate.swift in Sources */,
+				7CD2BFAC22D5623000E42EFA /* Wrath.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CD2BFB322D5623400E42EFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CD2BFBC22D5623400E42EFA /* WrathTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CD2BFBE22D5623400E42EFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CD2BFC722D5623400E42EFA /* WrathUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CD2BFB922D5623400E42EFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CD2BF9F22D5623000E42EFA /* Wrath */;
+			targetProxy = 7CD2BFB822D5623400E42EFA /* PBXContainerItemProxy */;
+		};
+		7CD2BFC422D5623400E42EFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CD2BF9F22D5623000E42EFA /* Wrath */;
+			targetProxy = 7CD2BFC322D5623400E42EFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CD2BFA722D5623000E42EFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CD2BFA822D5623000E42EFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CD2BFAF22D5623300E42EFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CD2BFB022D5623300E42EFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CD2BFC922D5623400E42EFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CD2BFCA22D5623400E42EFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CD2BFCC22D5623400E42EFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R87XPXN99F;
+				INFOPLIST_FILE = Wrath/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rambart.Wrath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CD2BFCD22D5623400E42EFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R87XPXN99F;
+				INFOPLIST_FILE = Wrath/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rambart.Wrath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7CD2BFCF22D5623400E42EFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R87XPXN99F;
+				INFOPLIST_FILE = WrathTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rambart.WrathTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wrath.app/Wrath";
+			};
+			name = Debug;
+		};
+		7CD2BFD022D5623400E42EFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R87XPXN99F;
+				INFOPLIST_FILE = WrathTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rambart.WrathTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wrath.app/Wrath";
+			};
+			name = Release;
+		};
+		7CD2BFD222D5623400E42EFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R87XPXN99F;
+				INFOPLIST_FILE = WrathUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rambart.WrathUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wrath;
+			};
+			name = Debug;
+		};
+		7CD2BFD322D5623400E42EFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R87XPXN99F;
+				INFOPLIST_FILE = WrathUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rambart.WrathUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wrath;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CD2BF9B22D5623000E42EFA /* Build configuration list for PBXProject "Wrath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CD2BFC922D5623400E42EFA /* Debug */,
+				7CD2BFCA22D5623400E42EFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CD2BFCB22D5623400E42EFA /* Build configuration list for PBXNativeTarget "Wrath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CD2BFCC22D5623400E42EFA /* Debug */,
+				7CD2BFCD22D5623400E42EFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CD2BFCE22D5623400E42EFA /* Build configuration list for PBXNativeTarget "WrathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CD2BFCF22D5623400E42EFA /* Debug */,
+				7CD2BFD022D5623400E42EFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CD2BFD122D5623400E42EFA /* Build configuration list for PBXNativeTarget "WrathUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CD2BFD222D5623400E42EFA /* Debug */,
+				7CD2BFD322D5623400E42EFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7CD2BFAA22D5623000E42EFA /* Wrath.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7CD2BFAB22D5623000E42EFA /* Wrath.xcdatamodel */,
+			);
+			currentVersion = 7CD2BFAB22D5623000E42EFA /* Wrath.xcdatamodel */;
+			path = Wrath.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7CD2BF9822D5623000E42EFA /* Project object */;
+}
