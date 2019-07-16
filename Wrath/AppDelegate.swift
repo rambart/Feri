@@ -17,8 +17,31 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        if !UserDefaults.standard.bool(forKey: "firstRun") {
+            createOptions()
+            let ud = UserDefaults.standard
+            ud.set(16, forKey: "baseStrength")
+            ud.set(17, forKey: "bab")
+            ud.set(4, forKey: "numberOfAttacks")
+            ud.set(true, forKey: "firstRun")
+        }
+        
+        configureAppWindow()
+
         return true
     }
+    
+    fileprivate func configureAppWindow() {
+        window = UIWindow(frame: UIScreen.main.bounds)
+        
+        let feri = FeriOptions(nibName: "FeriOptions", bundle: nil)
+        
+        window!.rootViewController = feri
+        window!.makeKeyAndVisible()
+        
+    }
+    
+    
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
